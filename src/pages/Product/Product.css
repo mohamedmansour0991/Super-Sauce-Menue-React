@@ -1,0 +1,19 @@
+@media (max-width: 771px) {
+  .product .product-slide > div img {
+    width: 100% !important;
+    max-height: 200px !important;
+  }
+  .product .img {
+    justify-content: center !important;
+    width: 90%;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .product-slide > div {
+    display: flex;
+    align-items: start;
+  }
+  .product {
+    flex-direction: column-reverse;
+  }
+}

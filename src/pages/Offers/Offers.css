@@ -1,0 +1,67 @@
+.offers > div {
+  background-color: #f3f3f3;;
+  border: none !important;
+}
+.offers .img {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+@media (max-width: 771px) {
+  .offers > div {
+    justify-content: space-between !important;
+  }
+  .offers img {
+    width: 80px !important;
+    height: 80px !important;
+    box-shadow: 0px 0px 4px 0px;
+  }
+  .offers h4 {
+    font-size: 18px;
+    padding: 0px !important;
+    margin: 0px !important;
+    margin-bottom: 10px !important;
+  }
+  .offers span {
+    font-size: 14px;
+  }
+}
+
+.categories > div {
+  background-color: #f3f3f3;;
+  border: none !important;
+}
+.categories .img {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+@media (max-width: 771px) {
+  .categories > div {
+    gap: 1rem;
+    /* justify-content: space-between !important; */
+  }
+  .categories img {
+    width: 60px !important;
+    height: 40px !important;
+    box-shadow: 0px 0px 4px 0px;
+  }
+  .categories h4 {
+    font-size: 18px;
+    padding: 0px !important;
+    margin: 0px !important;
+    margin-bottom: 10px !important;
+  }
+  .categories span {
+    font-size: 14px;
+  }
+}
+
+.buttons {
+  width: 15px;
+  height: 15px;
+  padding: 0px;
+  margin: 0px;
+}

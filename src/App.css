@@ -1,0 +1,157 @@
+:root {
+  --bg-header: #9d2c2d;
+  --bg-body: #ac3334;
+}
+
+.bg-header {
+  background-color: var(--bg-body) !important;
+}
+.bg-body {
+  background-color: var(--bg-header) !important;
+}
+/* 
+body {
+  background-color: var(--bg-body) !important;
+} */
+
+body {
+  direction: rtl !important;
+  margin-bottom: 100px !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  /* .col > div {
+    flex-direction: column-reverse;
+  } */
+  /* .col div {
+    justify-content: center !important;
+    text-align: center;
+  } */
+  /* .col div img {
+    margin: auto;
+    width: 100%;
+  } */
+}
+
+.slick-arrow {
+  display: none !important;
+}
+
+.swal-footer {
+  text-align: center !important;
+}
+
+.pulse-css {
+  border-radius: 3.5rem;
+  height: 0.7rem;
+  position: absolute;
+  background: blue;
+  right: 5px;
+  top: 0rem;
+  width: 0.7rem;
+}
+.pulse-css::before {
+  content: "";
+
+  position: absolute;
+  top: 0;
+  right: -5px;
+  bottom: 0;
+  background-color: blue;
+  margin: auto;
+  -webkit-transform: scale(0.3);
+  transform: scale(0.3);
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-animation: pulse-me 3s linear infinite;
+  animation: pulse-me 3s linear infinite;
+}
+.pulse-css::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  right: -5px;
+  background-color: blue;
+  margin: auto;
+  -webkit-transform: scale(0.3);
+  transform: scale(0.3);
+  -webkit-transform-origin: center center;
+  transform-origin: center center;
+  -webkit-animation: pulse-me 3s linear infinite;
+  animation: pulse-me 3s linear infinite;
+}
+
+@-webkit-keyframes pulse-me {
+  0% {
+    -webkit-transform: scale(0.3);
+    transform: scale(0.3);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  70% {
+    opacity: 0.09;
+  }
+  100% {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+@keyframes pulse-me {
+  0% {
+    -webkit-transform: scale(0.3);
+    transform: scale(0.3);
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.1;
+  }
+  70% {
+    opacity: 0.09;
+  }
+  100% {
+    -webkit-transform: scale(3);
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+.product-slide {
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+.bg-red {
+  background-color: #cb2026;
+}
+
+.form label {
+  color: #fff !important;
+}
+.form input {
+  background: #cc5d63 !important;
+  border: none !important;
+  border-radius: 12px;
+  margin-bottom: 8px;
+  color: #fff !important;
+}
+
+.form input::placeholder {
+  color: #e59d9f;
+}
+
+.slick-dots {
+  margin-bottom: 30px !important;
+}
